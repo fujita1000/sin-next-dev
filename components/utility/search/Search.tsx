@@ -15,6 +15,7 @@ const Search: React.FC<ISearch> = () => {
         router.push(`/results?search=${searchTerm}`);
       }}
     >
+      
       <input
         type="text"
         className="rounded-full border-2 w-5/6 sm:w-128 h-12 px-3"
